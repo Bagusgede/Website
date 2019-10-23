@@ -1,0 +1,45 @@
+<html>
+
+<head>
+    <link href="tombol.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <form name="test" action="#" method="post">
+        <div id="calculator">
+            <!-- Screen and clear key -->
+            <div class="top">
+                <input type="reset" class="clear" value="C"></input>
+                <input type="text" name="Input" class="screen" Size="20">
+                <input type="" name="" value>
+            </div>
+
+            <div class="keys">
+                <!-- operators and other keys -->
+                <input type="button" value="1" OnClick="test.Input.value += '1'"></input>
+                <input type="button" value="2" OnClick="test.Input.value -= '1'"></input>
+                <input type="button" value="3" OnClick="test.Input.value += '3'"></input>
+                <input type="button" value="a" class="operator" OnClick="test.Input.value += 'a'"></input>
+                <input type="button" value="4" OnClick="test.Input.value += '4'"></input>
+                <input type="button" value="5" OnClick="test.Input.value += '5'"></input>
+                <input type="button" value="6" OnClick="test.Input.value += '6'"></input>
+                <input type="button" value="b" class="operator" OnClick="test.Input.value += 'b'"></input>
+                <input type="button" value="7" OnClick="test.Input.value += '7'"></input>
+                <input type="button" value="8" OnClick="test.Input.value += '8'"></input>
+                <input type="button" value="9" OnClick="test.Input.value += '9'"></input>
+                <input type="button" value="c" class="operator" OnClick="test.Input.value += 'c'"></input>
+                <input type="button" value="*" OnClick="test.Input.value += '*'"></input>
+                <input type="button" value="0" OnClick="test.Input.value += '0'"></input>
+                <input type="button" value="#" OnClick="test.Input.value += '#'"></input>
+                <input type="button" value="d" class="operator" OnClick="test.Input.value += 'd'"></input>
+                <input type="submit" value="Enter" class="enter"></input>
+            </div>
+        </div>
+        <script src="prefixfree-1.0.7.js" type="text/javascript" type="text/javascript"></script>
+        <script src="jquery.min.js" type="text/javascript" type="text/javascript"></script>
+        <script src="tombol.js" type="text/javascript" type="text/javascript"></script>
+</body>
+</form>
+
+</html>
